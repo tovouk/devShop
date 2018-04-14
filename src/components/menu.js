@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Menu = () =>(
-    <div>
+    <div style={{
+        padding:'.2em'
+    }}>
         <ul style={{
             display:'flex',
             justifyContent:'space-evenly',
