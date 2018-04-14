@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
-import Menu from '../components/menu'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -15,8 +14,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    <div>
     <Header siteTitle={data.site.siteMetadata.title} />
-    <Menu />
+    </div>
     <div
       style={{
         margin: '0 auto',
@@ -34,6 +34,8 @@ Layout.propTypes = {
   children: PropTypes.func,
 }
 
+
+//To run on c9 use gatsby develop -H $IP -p $PORT
 export default Layout
 
 export const query = graphql`
