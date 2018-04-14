@@ -2,12 +2,16 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Menu = () =>(
-    <div>
+    <div style={{
+        background:'#EEEEEE'
+    }}>
         <ul style={{
             width:'100vw',
             height:'auto',
-            display:'inline',
-            background:'#666'
+            display:'flex',
+            justifyContent:'space-evenly',
+            background:'#666',
+            listStyle:'none'
             
         }}>
             <li><Link to="/">Home</Link></li>
@@ -16,4 +20,4 @@ const Menu = () =>(
     </div>
 )
     
-export default Menu
+export default Menu;
