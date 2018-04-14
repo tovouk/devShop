@@ -6,7 +6,6 @@ const Menu = () =>(
         <ul style={{
             display:'flex',
             justifyContent:'space-evenly',
-            background:'#666',
             listStyle:'none'
             
         }}>
