@@ -2,12 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Menu = () =>(
-    <div style={{
-        background:'#EEEEEE'
-    }}>
+    <div>
         <ul style={{
-            width:'100vw',
-            height:'auto',
             display:'flex',
             justifyContent:'space-evenly',
             background:'#666',
