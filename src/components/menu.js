@@ -2,8 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Menu = () =>(
-    <div style={{ position:'relative',
-        zIndex:3000
+    <div style={{ 
       }}>
         <ul className="menu">
             <li className="menuItem" ><Link to="/">Home</Link></li>
